@@ -1,6 +1,6 @@
 # WeatherForecast
 
-![My image](https://github.com/kaustubhkp/Test/blob/master/screenshot/screenshot.jpeg)
+![My image](https://github.com/kaustubhkp/WeatherForecast/blob/master/screenshot/screenshot.jpeg)
 
 # Quick Start:
 - Clone project<br>

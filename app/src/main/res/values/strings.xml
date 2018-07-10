@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+
+    <string name="wind_speed">%1$s KM/S</string>
+    <string name="cloud_percentage">%1$d%%</string>
+    <string name="sunrise_sunset">%1$s / %2$s</string>
+    <string name="temperature_min_max">%1$s°C / %2$s°C</string>
+    <string name="current_temperature">%1$s°C</string>
+
+    <string name="try_again_text">Oops! please check Internet connection and tap this message to try again</string>
+    <string name="settings">Settings</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+
+    <string name="title_wind">Wind</string>
+    <string name="title_humidity">Humidity</string>
+    <string name="title_temperature">Temperature</string>
+    <string name="title_sunrise_sunset">Sunrise/Sunset</string>
+    <string name="title_pressure">Pressure</string>
+    <string name="title_clouds">Clouds</string>
+
+    <string name="img_content_description">Image</string>
+    <string name="refresh">Refresh</string>
+</resources>

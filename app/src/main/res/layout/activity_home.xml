@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.mvp.HomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_forecast_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/forecast_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_30"
+            layout="@layout/weather_overview" />
+
+        <include
+            android:id="@+id/forecast_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/weather_detail" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb_home_progress"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_try_again"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/sp_25"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="@string/try_again_text"
+        />
+
+</FrameLayout>
